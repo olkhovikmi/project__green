@@ -10,7 +10,6 @@
 body {
 	font-family: var(--releway);
 	color: var(--dark-blue);
-	margin: 0;
 	padding: 0;
 }
 
@@ -92,7 +91,7 @@ button {
 }
 
 .about {
-background: url('../img/back.png') no-repeat;
-background-position: center;
-background-size: cover;
+	background: url('../img/back.png') no-repeat;
+	background-position: center;
+	background-size: cover;
 }
