@@ -57,6 +57,10 @@ button {
 	justify-content: space-around;
 	align-items: center;
 	padding: 115px 0 115px 0;
+
+	background: url('../img/back.png') no-repeat;
+	background-position: center;
+	background-size: cover;
 }
 
 .about__image {
@@ -90,8 +94,6 @@ button {
 	max-width: 550px;
 }
 
-.about {
-	background: url('../img/back.png') no-repeat;
-	background-position: center;
-	background-size: cover;
+.form__container {
+	width: 550px;
 }
