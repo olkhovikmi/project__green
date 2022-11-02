@@ -197,7 +197,7 @@ button:hover {
 		margin-right: 80px;
 	}
 
-	.footer__group > h3 {
+	.footer__group  h3 {
 		margin-bottom: 30px;
 
 		font-size: 16px;
@@ -210,7 +210,15 @@ button:hover {
 		flex-direction: column;
 	}
 
-	.footer__links > a {
+	.footer__links  a {
 		margin-bottom: 15px;
 	}
 
+/*********** Animation **********/
+.about__sun-image {
+	animation: rotation 10s linear infinite;
+}
+
+@keyframes rotation {
+	to {transform: rotate(360deg)}
+}
