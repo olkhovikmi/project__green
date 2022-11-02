@@ -163,7 +163,9 @@ form select {
 }
 
 select {
-	appearance: none;
+	-webkit-appearance: none;
+	   -moz-appearance: none;
+	        appearance: none;
 }
 
 input {
@@ -219,9 +221,15 @@ footer {
 
 /*********** Animation Start **********/
 
+@-webkit-keyframes rotation {
+	to {
+		transform: rotate(360deg);
+	}
+}
+
 @keyframes rotation {
 	to {
-		transform: rotate(360deg)
+		transform: rotate(360deg);
 	}
 }
 
